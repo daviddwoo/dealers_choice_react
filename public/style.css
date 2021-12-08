@@ -1,0 +1,142 @@
+body {
+    background-color: #05386B;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#deleteButton {
+    border: none;
+    color: black;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+#deleteButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#flags {
+    height: 15rem;
+    object-fit: cover;
+}
+
+#app {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#foodImg {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+#flagImg {
+    width: 4rem;
+    height: 3rem;
+    object-fit: cover;
+}
+
+#video, #foodDetails {
+    display: inline;
+}
+
+#video {
+    margin-right: 5%;
+}
+
+#foodDetails {
+    background-color: #8EE4AF;
+    color: black;
+    border: 3px solid black;
+    width: 20rem;
+    height: 23rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foodCard {
+    background-color: #8EE4AF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 10rem;
+    height: 18rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+    justify-content: center;
+    transition: transform .2s;
+}
+
+.singleFood {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.foodCard:hover { 
+    transform: scale(1.1); 
+}
+
+.foodCard h1 {
+    text-align: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+@font-face { 
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+.header {
+    text-align: center;
+    font-family: 'SEGA LOGO FONT';
+    font-weight: 20;
+    color: #8EE4AF;
+    font-size: x-large;
+}
+
